@@ -12,8 +12,7 @@
     align-items: center;
     color: #071D49;
     font-weight: 600;
-    background-image: linear-gradient(#d2d7e0,#6AD1E3
-    );
+    background-image: linear-gradient(#d2d7e0,);
   }
 
   .toolbar img {
@@ -21,7 +20,7 @@
   }
   
 .spacer{
-    margin-left: 240px;
+    margin-left: 840px;
   }
 
 .txt-header{
@@ -32,4 +31,6 @@ a{
     color: #071D49;
 }
 
-  
+.btn-primary{
+    margin-left: 32px;
+}
