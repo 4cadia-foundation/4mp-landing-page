@@ -13,6 +13,7 @@ nav{
     box-shadow: -9px 10px 7px #769cd863;    
 }
 
-ul{
+#margin-header{
     margin: auto;
     margin-left: 65%;
+}
