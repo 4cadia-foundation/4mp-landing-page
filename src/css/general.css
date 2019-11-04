@@ -1,8 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,700&display=swap');
+
+* {
+    color: rgba(0, 0, 0, 0.87);
+    font-family: 'Noto Sans', sans-serif;
+}
+
+h2 {
+    color: #071D49;
+}
+
+.color-white {
+    color: #FFFFFF;
+}
+
+.fs-18 {
+    font-size: 18px;
+}
+
 #purpose {
-    background-image: url("https://via.placeholder.com/1920x500/20c997.png?text=' '");
+    background-image: url("../img/temp-bg.jpg");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
+    color: #FFFFFF;
 }
 
 #mp-solution {
@@ -16,4 +36,50 @@
 #margin-header{
     margin: auto;
     margin-left: 65%;
+}
+.custom-card-deck .card {
+    box-shadow: 0px 4px 8px rgba(8, 35, 48, 0.24);
+}
+
+.custom-card-deck  .card-title {
+    font-weight: bold;
+    color: #071D49;
+    text-align: center;
+}
+
+.custom-card-deck  .card-text {
+    font-size: 18px;
+    color: #000000;
+    text-align: center;
+}
+
+.btn-primary {
+    background: #0047BB;
+    border-color: #0047BB;
+    box-shadow: 0px 4px 8px rgba(7, 29, 73, 0.24);
+    border-radius: 4px;
+    text-align: center;
+    letter-spacing: 0.75px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+}
+
+/* MOBILE */
+@media (max-width: 991px) {
+    .custom-card-deck .card {
+        margin: 0 auto;
+        margin-bottom: 35px;
+        flex-direction: row;
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .custom-card-deck .card {
+        flex-direction: column;
+        max-width: 350px;
+    }
 }
