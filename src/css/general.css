@@ -21,6 +21,32 @@ footer {
     background: #071D49;
 }
 
+header nav {
+    background: #071D49;
+    box-shadow: 0px 2px 4px rgba(8, 35, 48, 0.24);
+}
+
+header nav li a {
+    color: #C6CACC !important;
+    font-size: 18px;
+}
+
+header nav li:hover a {
+    cursor: pointer;
+    color: #6AD1E3 !important;
+    transition: .2s all ease-in-out;
+}
+
+header nav li button {
+    line-height: 26px !important;
+    margin-left: 9px;
+    font-size: 14px;
+}
+
+#navbar {
+    justify-content: flex-end;
+}
+
 #purpose {
     background-image: url("../img/4mp-azul-3.jpg");
     background-size: cover;
@@ -30,17 +56,9 @@ footer {
 }
 
 #mp-solution {
-    background-color: lightblue;
+    background-color: #5bd0e4;
 }
 
-#border-nav{
-    box-shadow: -9px 10px 7px #769cd863;    
-}
-
-#margin-header{
-    margin: auto;
-    margin-left: 65%;
-}
 .custom-card-deck .card {
     box-shadow: 0px 4px 8px rgba(8, 35, 48, 0.24);
 }
@@ -75,6 +93,18 @@ footer {
     margin-left: 10px;
 }
 
+#cta button {
+    font-size: 14px;
+    height: 40px;
+}
+
+.navbar-toggler {
+    border: none;
+    align-items: center;
+    display: flex;
+    padding: 10px 10px;
+}
+
 /* MOBILE */
 @media (max-width: 991px) {
     .custom-card-deck .card {
@@ -82,6 +112,10 @@ footer {
         margin-bottom: 35px;
         flex-direction: row;
         width: 100%;
+    }
+
+    header nav li, header nav li a {
+        text-align: right;
     }
 }
 
