@@ -17,6 +17,10 @@ h2 {
     font-size: 18px;
 }
 
+footer {
+    background: #071D49;
+}
+
 #purpose {
     background-image: url("../img/temp-bg.jpg");
     background-size: cover;
@@ -67,6 +71,10 @@ h2 {
     text-transform: uppercase;
 }
 
+.socialbar a {
+    margin-left: 10px;
+}
+
 /* MOBILE */
 @media (max-width: 991px) {
     .custom-card-deck .card {
@@ -83,3 +91,26 @@ h2 {
         max-width: 350px;
     }
 }
+
+@media (max-width: 575px) {
+    .footer-container {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .footer-container > a {
+        margin: auto;
+        margin-bottom: 40px;
+    }
+
+    .footer-container > div {
+        margin: auto;
+    }
+
+    .socialbar a {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
+
+
