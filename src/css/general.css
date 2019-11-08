@@ -126,7 +126,7 @@ header nav li button {
     justify-content: space-between;
 }
 
-.r-item {justify-content: center;display: flex;flex-direction: column;}
+.r-item {justify-content: center;display: flex;flex-direction: column;width: 30%;}
 .r-item .sphere {
     background-color: #079ad7;
     display: flex;
@@ -201,6 +201,7 @@ header nav li button {
     .r-item {
         flex-direction: row;
         margin-bottom: 65px;
+        width: auto;
     }
 
     .r-item .title {
@@ -283,6 +284,10 @@ header nav li button {
 
     .r-item.step1, .r-item.step2 {
         margin-bottom: 65px;
+    }
+
+    .r-item {
+        width: auto;
     }
 }
 
