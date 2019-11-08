@@ -253,6 +253,10 @@ header nav li button {
         align-items: center;
         justify-content: center;
     }
+
+    #purpose {
+        padding: initial;
+    }
 }
 
 @media (max-width: 767px) {
