@@ -13,6 +13,10 @@ h2 {
     color: #071D49;
 }
 
+.mb-5 {
+    margin-bottom: 0rem !important;
+}
+
 .color-white {
     color: #FFFFFF;
 }
