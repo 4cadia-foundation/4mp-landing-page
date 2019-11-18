@@ -69,6 +69,11 @@ header nav li button {
     padding: 100px;
 }
 
+
+.cards-features {
+    margin-top: 15px;
+}
+
 .custom-card-deck .card {
     box-shadow: 0px 4px 8px rgba(8, 35, 48, 0.24);
 }
@@ -181,6 +186,18 @@ header nav li button {
     color: #ffffff !important;
     margin-bottom: 5px;
     display: none;
+}
+
+
+/* Features-cards */
+
+.card-text-content {
+    margin-top: 40px;
+    margin-left: 15px;
+}
+
+.card {
+    margin-top: 20px;
 }
 
 .r-item.step1 li {color: #071d49;}
